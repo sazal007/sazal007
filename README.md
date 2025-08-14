@@ -1,5 +1,4 @@
 ### Hi there 👋
 
-<h2 align="center">.. -.. .. --- -</h2>
+<h2 align="left">.. -.. .. --- -</h2>
 
-const reality = () => code ? bugs++ : skills++;
