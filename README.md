@@ -1,19 +1,28 @@
 <br clear="both">
 
 <div align="center">
-  <a href="sazals48@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="50" height="30" alt="gmail logo"  />
+  <a href="mailto:sazals48@gmail.com" style="text-decoration:none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
+         width="50" height="30" alt="gmail logo" style="display:inline-block;" />
   </a>
-  <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="50" height="30" alt="linkedin logo"  />
+
+  <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266/" style="text-decoration:none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
+         width="50" height="30" alt="linkedin logo" style="display:inline-block;" />
   </a>
-  <a href="https://www.instagram.com/_sazal__/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="50" height="30" alt="instagram logo"  />
+
+  <a href="https://www.instagram.com/_sazal__/" style="text-decoration:none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"
+         width="50" height="30" alt="instagram logo" style="display:inline-block;" />
   </a>
-  <a href="https://www.facebook.com/shresthasazal" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="50" height="30" alt="facebook logo"  />
+
+  <a href="https://www.facebook.com/shresthasazal" style="text-decoration:none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg"
+         width="50" height="30" alt="facebook logo" style="display:inline-block;" />
   </a>
 </div>
+
+###
 
 <!-- <h1 align="center">Hey 👋What's Up?</h1> -->
 <div align="center">
