@@ -1,6 +1,22 @@
 <br clear="both">
 
 <h1 align="center">Hey 👋What's Up?</h1>
+<div align="center">
+  <table>
+    <tr>
+      <td width="60%">
+        <h2>Hey 👋 I'm Sajal</h2>
+        <p>
+          Full-stack web developer building modern web apps with
+          React, Next.js, and Node.js.
+        </p>
+      </td>
+      <td width="40%">
+        <img src="./pixel.png" alt="Pixel avatar" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ###
 
