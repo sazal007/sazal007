@@ -1,4 +1,23 @@
 <br clear="both">
+<!-- <h1 align="center">Hey 👋What's Up?</h1> -->
+<div align="center">
+  <table>
+    <tr>
+      <td width="60%">
+        <h2>Hey 👋 I'm Sajal</h2>
+        <p>
+          Full-stack web developer building modern web apps with
+          React, Next.js, and Node.js.
+        </p>
+      </td>
+      <td width="40%">
+        <img src="./pixel.png" alt="Pixel avatar" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+###
 
 <div align="center">
   <a href="mailto:sazals48@gmail.com" style="text-decoration:none;">
@@ -20,26 +39,6 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg"
          width="50" height="30" alt="facebook logo" style="display:inline-block;" />
   </a>
-</div>
-
-###
-
-<!-- <h1 align="center">Hey 👋What's Up?</h1> -->
-<div align="center">
-  <table>
-    <tr>
-      <td width="60%">
-        <h2>Hey 👋 I'm Sajal</h2>
-        <p>
-          Full-stack web developer building modern web apps with
-          React, Next.js, and Node.js.
-        </p>
-      </td>
-      <td width="40%">
-        <img src="./pixel.png" alt="Pixel avatar" width="100%" />
-      </td>
-    </tr>
-  </table>
 </div>
 
 ###
