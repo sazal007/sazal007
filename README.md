@@ -20,10 +20,7 @@
 ###
 
 <div align="center" style="display:flex; justify-content:center; gap:10px;">
-  <a href="mailto:sazals48@gmail.com">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
-         width="36" height="24" alt="gmail logo" />
-  </a>
+  <a href="mailto:sazals48@gmail.com"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="36" height="24" alt="gmail logo" /></a>
 
   <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
