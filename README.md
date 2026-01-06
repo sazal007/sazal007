@@ -20,23 +20,27 @@
 ###
 
 <div align="center" style="display:flex; justify-content:center; gap:10px;">
-  <a href="mailto:sazals48@gmail.com" style="text-decoration:none; border:none; outline:none;">
+  <a href="mailto:sazals48@gmail.com">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
-         width="32" height="32" alt="gmail logo" style="display:block;" />
+         width="36" height="24" alt="gmail logo" />
   </a>
-  <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266/" target="_blank" style="text-decoration:none; border:none; outline:none;">
+
+  <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
-         width="32" height="32" alt="linkedin logo" style="display:block;" />
+         width="36" height="24" alt="linkedin logo" />
   </a>
-  <a href="https://www.instagram.com/_sazal__/" target="_blank" style="text-decoration:none; border:none; outline:none;">
+
+  <a href="https://www.instagram.com/_sazal__/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"
-         width="32" height="32" alt="instagram logo" style="display:block;" />
+         width="36" height="24" alt="instagram logo" />
   </a>
-  <a href="https://www.facebook.com/shresthasazal" target="_blank" style="text-decoration:none; border:none; outline:none;">
+
+  <a href="https://www.facebook.com/shresthasazal" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg"
-         width="32" height="32" alt="facebook logo" style="display:block;" />
+         width="36" height="24" alt="facebook logo" />
   </a>
 </div>
+
 
 ###
 
