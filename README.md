@@ -19,19 +19,19 @@
 
 ###
 
-<div align="center" style="display:flex; justify-content:center; gap:10px;">
-  <a href="mailto:sazals48@gmail.com">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
-         width="36" height="24" alt="gmail logo" /></a>
-  <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
-         width="36" height="24" alt="linkedin logo" /></a>
-  <a href="https://www.instagram.com/_sazal__/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg"
-         width="36" height="24" alt="instagram logo" /></a>
-  <a href="https://www.facebook.com/shresthasazal" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg"
-         width="36" height="24" alt="facebook logo" /></a>
+<div align="center">
+  <a href="sazals48@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/sajal-shrestha-9b2773266" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/_sazal__" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="37" height="25" alt="instagram logo"  />
+  </a>
+  <a href="https://www.facebook.com/shrestha.sazal" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="37" height="25" alt="facebook logo"  />
+  </a>
 </div>
 
 
