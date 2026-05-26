@@ -18,15 +18,26 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
+    env:
+      NODE_OPTIONS: --max-old-space-size=8192
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution graph SVGs
+      # PACMAN
+      - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: 'pacman, galaga'
+          games: 'pacman'
+
+      # GALAGA
+      - name: Generate Galaga Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'galaga'
 
       - name: Push SVGs to output branch
         uses: peaceiris/actions-gh-pages@v4
