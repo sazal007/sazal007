@@ -24,7 +24,7 @@ jobs:
 
       # PACMAN
       - name: Generate Pacman Graph
-        uses: abozanona/pacman-contribution-graph@v1
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman'
@@ -37,7 +37,7 @@ jobs:
 
       # GALAGA
       - name: Generate Galaga Graph
-        uses: abozanona/pacman-contribution-graph@v1
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'galaga'
