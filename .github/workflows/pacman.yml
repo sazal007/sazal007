@@ -11,47 +11,44 @@ on:
       - main
 
 jobs:
-  pacman:
+  generate:
     permissions:
       contents: write
 
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # PACMAN
       - name: Generate Pacman Graph
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@v1
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman'
 
-      - name: Deploy Pacman
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
+      # save pacman files temporarily
+      - name: Save Pacman Files
+        run: |
+          mkdir -p temp/pacman
+          cp -r dist/* temp/pacman/
 
-  galaga:
-    permissions:
-      contents: write
-
-    runs-on: ubuntu-latest
-    needs: pacman
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
+      # GALAGA
       - name: Generate Galaga Graph
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@v1
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'galaga'
 
-      - name: Deploy Galaga
+      # merge both outputs
+      - name: Merge SVG Files
+        run: |
+          cp -r temp/pacman/* dist/
+
+      # deploy once
+      - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
