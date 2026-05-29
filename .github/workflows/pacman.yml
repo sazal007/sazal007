@@ -2,10 +2,8 @@ name: generate arcade contribution graphs
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
-
+    - cron: '0 0 * * *'   # once daily is enough; every 12h is overkill
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -14,43 +12,40 @@ jobs:
   generate:
     permissions:
       contents: write
-
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # PACMAN
-      - name: Generate Pacman Graph
+      # Generate Pac-Man graph → writes to ./dist
+      - name: Generate Pac-Man graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman'
 
-      # save pacman files temporarily
-      - name: Save Pacman Files
-        run: |
-          mkdir -p temp/pacman
-          cp -r dist/* temp/pacman/
+      # Stash Pac-Man output before next action overwrites dist/
+      - name: Stash Pac-Man files
+        run: cp -r dist dist-pacman
 
-      # GALAGA
-      - name: Generate Galaga Graph
+      # Generate Galaga graph → overwrites ./dist
+      - name: Generate Galaga graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'galaga'
 
-      # merge both outputs
-      - name: Merge SVG Files
-        run: |
-          cp -r temp/pacman/* dist/
+      # Merge both outputs into dist/
+      - name: Merge outputs
+        run: cp -r dist-pacman/* dist/
 
-      # deploy once
+      # Deploy using the action the upstream repo actually uses
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v4
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
