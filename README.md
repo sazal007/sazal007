@@ -6,7 +6,7 @@
       <td width="60%">
         <h2>Hey 👋 I'm Sajal</h2>
         <p>
-          Full-stack web developer building modern web apps with
+          Web developer building modern web apps with
           React, Next.js, and Node.js.
         </p>
       </td>
